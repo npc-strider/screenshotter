@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.npc_strider.screenshotter.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "WindowMixin",
+    "BackgroundRendererMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
